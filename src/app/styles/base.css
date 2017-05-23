@@ -1,0 +1,261 @@
+body {
+  background-image: radial-gradient(at center, rgb(255, 255, 255) 0%, rgb(51, 64, 77) 100%);
+  background-size: cover;
+}
+
+span.mdl-layout-title.app-brand {
+  background-color: rgb(0, 191, 223);
+  color: #FFF;
+  text-shadow: 0px 0px 1px #000;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.mdl-layout {
+  height: 100vh;
+}
+
+.container.mainContentWrapper {
+  padding-top: 4em;
+}
+
+a {
+  /*color: #337ab7 !important;*/
+  text-decoration: none !important;
+}
+
+.mdl-layout--fixed-drawer>.mdl-layout__content {
+  margin-left: 240px;
+  /*height: 100vh;*/
+  height: inherit;
+}
+span.organization-title {
+  font-size: 1.5em;
+}
+span.platform-title {
+  font-size: 1.5em;
+}
+
+.page-content {
+  height: inherit;
+}
+
+span.mdl-layout-title.app-brand {
+  background-color: rgb(0, 191, 223);
+  color: #FFF;
+  text-shadow: 0px 0px 1px #000;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.mdl-layout__header-row {
+  background-color: rgb(0,168,191);
+}
+nav.mdl-navigation {
+  padding-top: 0px !important;
+}
+
+a.mdl-navigation__link.top-nav {
+  border-right: 1px solid rgba(0,191,223, 1);
+  &:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgba(50, 100, 123, 0.4);
+  }
+  &:first-child {
+    border-left: 1px solid rgba(0,191,223, 1);
+  }
+}
+
+h4.interactive {
+  z-index: 1;
+  position: fixed;
+  top: 40px;
+  text-align: center;
+  left: calc(100% - 75%);
+}
+
+.patient-profile {
+  color: rgba(255,255,255, 0.6);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 5px;
+  font-size: 20px;
+  border: 3px solid rgba(255,255,255, 0.2);
+  &:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgba(0, 168, 191, 1);
+  }
+}
+
+.patient-profile.picture {
+  background-color: rgb(48, 91, 111);
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.red {
+  background-color: rgb(50, 100, 123) !important;
+  border-right: none !important;
+}
+
+.panel-soothing {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.action-panel {
+  width: 250px !important;
+  height: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #999;
+  &:hover {
+    transition: background-color 0.4s ease;
+    background-color: rgba(255, 255, 255, .7);
+  }
+
+}
+
+.inner-action-panel {
+  width: calc(100% - 10%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: calc(100% - 10%);
+  position: relative;
+  left: 5%;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  background-image: radial-gradient(at center, rgb(255, 255, 255) 0%, rgb(51, 64, 77) 200%);
+}
+
+span.mdl-badge {
+  left: 50px;
+  color: #555;
+  text-decoration: none !important;
+}
+
+.mdl-badge[data-badge]:after {
+  background: red !important;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+h4.inner-action-name {
+  text-transform: capitalize;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+
+/***************************
+  CALCULATOR
+**************************
+*/
+
+.calculator {
+  width: 500px;
+  margin: auto;
+  margin-top: 8em;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.bgHeader {
+  background-color: rgb(0,168,191);
+  padding: 0.1em;
+  text-align: center;
+  color: #FFF;
+  width: inherit;
+  margin-left: -1.4em;
+  margin-top: -2em;
+  margin-bottom: 3em;
+}
+
+.results {
+  display: -webkit-flex;
+  display: flex;
+  width: 8.95em;
+  height: 100px;
+  padding-left: 9%;
+  text-align: center;
+  font-size: 4em;
+  margin-left: -35px;
+  vertical-align: text-top;
+  background-color: red;
+  color: #FFF;
+}
+
+span.spacer {
+  padding: 5px;
+}
+
+.input-group .form-control {
+  margin: 10px;
+}
+
+.results-wrapper p {
+  font-size: 1.5em;
+  color: #777;
+}
+
+
+/***************************
+  FONT AWESOME
+**************************
+*/
+
+i.fa.fa-check-circle-o.fa-4 {
+  font-size: 7em;
+  color: rgba(254, 184, 52, 1);
+}
+
+i.fa.fa-flag-o.dashboard {
+  font-size: 7em;
+  color: rgba(255, 0, 0, 0.7);
+}
+
+i.fa.fa-medkit.dashboard {
+  font-size: 7em;
+  color: rgba(60, 184, 76, 1);
+}
+
+i.fa.fa-calculator {
+  font-size: 7em;
+  color: rgba(0, 191, 223, 1);
+}
+
+i.fa.fa-user-circle-o {
+  font-size: 7em;
+  color: rgba(0, 191, 223, 1);
+}
+
+i.fa.fa-balance-scale.goals {
+  font-size: 7em;
+  color: rgba(118, 75, 142, 1);
+}
+
+i.fa.fa-cutlery.goals {
+  font-size: 7em;
+  color: rgba(47, 205, 205, 1);
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  .mainContentWrapper {
+    width: 970px;
+    margin-left: 18em;
+  }
+}
+
+.input-group .form-control {
+  max-width: 175px;
+}
